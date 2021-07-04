@@ -1,20 +1,12 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
 
-# OSX Specific System Files
+# Windows and OSX Specific System Files
 .DS_Store
-*.swp
+.DS_Store?
+._*
 .Spotlight-V100
 .Trashes
-
-# Win Specific System Files
+*.swp
 ehthumbs.db
 Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# Analytics Files
-/google*.html
-
-# Test Files
-/phpinfo.php
-
-# Automaticly added to end of file by tools
+Icon\?
